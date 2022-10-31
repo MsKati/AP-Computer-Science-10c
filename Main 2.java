@@ -20,9 +20,9 @@ int x = 5, y = 6, z = 50;
 System.out.println (x+y+z);
 System.out.println (x*y*z);
 
-// Java Identifiers
-int minutesPerHour = 60; //This is good
-int m = 60; //This is bad 
+// Java Identifiers TO CHECK THE MINUTES PER HOUR CULD BE minutesPerHour
+ 
+int m = 60;
 
 //Java Data Type
  int myNum = 5; //Integer (Whole Numbers)
