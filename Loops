@@ -1,0 +1,77 @@
+// This is our first comments
+/*This is another type of comment*/
+class Main {
+ // This is our first comments
+  public static void main/*This is another type of comment*/(String[] args) {
+    System.out.println("This is Java");
+
+    // Variables in Java 
+    int myNumber = 10; // Integer (whole number)
+    System.out.println(myNumber);
+    
+    //This how to define a String
+    String myWord = "Hello";
+    //System.out.println ("Hello");
+    System.out.println (myWord);
+
+    //Regina, RenE, RYUJiN, Roberto, Jose = 1 pba
+/*10/18/21*/
+    //
+    float myFloat = 5.99f; // Floating Number Points ex 4.33333
+    char myLetter = 'G'; // Characters in words
+    boolean myBool = true; //True or False Only 
+
+
+    /* Operators, Syntax,Naming conventions*/
+
+   int x = 5/* 5 is a value*/; // 5 is assigned to the variable x, we cannot write 5=x
+/*
+    + Addition
+    - Substraction 
+    * Multiplication
+    / Divison
+    % Modulus  Returns the remainder
+   ++ Increament
+   -- Decrement
+  
+
+   /* If / else if / else statement
+
+*/
+  int i = 5; 
+  if  (i != 5) {
+    System.out.println ("i is not equal to 5");
+  } else if (i==6) {
+    System.out.println ("i = 6");
+
+  } else {
+    System.out.println("i is not 5 or 6");
+  }
+  */
+
+/* Logical Conditions
+> Greater Than
+< Less Than 
+== Equal
+>= Greater than or equal
+<= Less than or equal
+!= Not Equal
+
+IDE = Integrated Development Environment 
+*/
+//Loop Jose, Ian, Elijah, Jackson Juan, Ethan
+//for loop 
+/*for (int i = 0; i < 5; i++){
+  System.out.println(i);
+}*/
+//While Loops
+ int i = 0;
+ while ( i != 5){
+   System.out.println (i);
+   i++;
+ }
+
+
+
+  }
+}
