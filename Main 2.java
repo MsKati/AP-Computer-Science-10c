@@ -22,7 +22,9 @@ System.out.println (x*y*z);
 
 // Java Identifiers TO CHECK THE MINUTES PER HOUR CULD BE minutesPerHour
  
-int m = 60;
+// int m = 60; This is bad, remember to detail the variable name
+//See solution below
+int minutesPerHour = 60;
 
 //Java Data Type
  int myNum = 5; //Integer (Whole Numbers)
